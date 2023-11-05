@@ -1,6 +1,7 @@
-
+import logo from './img/logo.png';
 import './App.css';
-import About from './components/About';
+
+import About from './components/AboutMe';
 import Welcome from './components/Welcome';
 import Header from './components/Navbar';
 import Products from './components/Products';
@@ -11,17 +12,12 @@ function App() {
   return (
   <>
     <div >
-      <Header />
       <Welcome />
       <About />
-      <Products />
-      <Appointments />
-      <Services />
     </div>
   </>
   );
 }
 
-
-
+// Export the App component so that it can be used in other parts of your application
 export default App;
